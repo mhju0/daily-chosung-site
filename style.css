@@ -1,0 +1,30 @@
+@font-face { font-family: Pretendard; src: url('assets/Pretendard-Regular.otf') format('opentype'); font-weight: 400; font-display: swap; }
+@font-face { font-family: Pretendard; src: url('assets/Pretendard-SemiBold.otf') format('opentype'); font-weight: 600 900; font-display: swap; }
+:root { color-scheme: light dark; --blue: #002fa7; --ink: #18243c; --muted: #52617a; --paper: #fff; --back: #f2f5fb; --line: #d6dfed; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--back); color: var(--ink); font: 17px/1.8 Pretendard, -apple-system, sans-serif; word-break: keep-all; overflow-wrap: anywhere; }
+header, main, footer { width: min(760px, calc(100% - 40px)); margin-inline: auto; }
+header { padding-block: 32px; }
+header a { color: var(--blue); text-decoration: none; font-size: 20px; font-weight: 600; }
+main { background: var(--paper); padding: clamp(24px, 5vw, 52px); border-top: 5px solid var(--blue); border-radius: 0 0 20px 20px; }
+h1 { margin: 0 0 20px; font-size: clamp(29px, 5vw, 40px); line-height: 1.35; letter-spacing: -.045em; text-wrap: balance; }
+h2 { margin: 36px 0 12px; font-size: 22px; line-height: 1.5; }
+h3 { font-size: 18px; margin: 24px 0 8px; }
+p, ul, ol, dl { margin: 12px 0; }
+p { text-wrap: balance; }
+ul, ol { padding-left: 22px; }
+li + li { margin-top: 7px; }
+a { color: var(--blue); text-underline-offset: 4px; }
+a:focus-visible { outline: 3px solid var(--blue); outline-offset: 5px; }
+.lead { color: var(--muted); font-size: 18px; }
+.button { display: inline-block; padding: 10px 16px; border: 1px solid var(--line); border-radius: 12px; color: var(--blue); font-weight: 600; text-decoration: none; background: var(--paper); }
+.button.primary { background: var(--blue); color: white; border-color: var(--blue); }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.note { padding-left: 16px; border-left: 3px solid var(--line); color: var(--muted); }
+.meta, footer { color: var(--muted); font-size: 14px; }
+footer { padding-block: 28px 40px; }
+footer nav { display: flex; flex-wrap: wrap; gap: 12px 20px; }
+dt { font-weight: 600; margin-top: 20px; }
+dd { margin: 6px 0 18px; }
+@media (prefers-color-scheme: dark) { :root { --blue: #6a9bfe; --ink: #e9eef6; --muted: #aab8cf; --paper: #11192a; --back: #080f1c; --line: #344563; } .button.primary { background: #2164fb; border-color: #2164fb; } }
+@media (max-width: 380px) { header, main, footer { width: calc(100% - 28px); } main { padding: 22px; } .button { padding-inline: 12px; } }
