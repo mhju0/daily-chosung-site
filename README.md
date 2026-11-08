@@ -1,6 +1,6 @@
 # daily-chosung-site
 
-Public files for the 데일리 초성 iPhone app, served by GitHub Pages.
+Public files for the 무한초성 iPhone app, served by GitHub Pages.
 
 - `config.json`: the server address the app reads at launch, so the server can move without an app update.
 - `index.html`, `support.html`, `privacy.html`: app information, support, and the privacy policy.
@@ -10,3 +10,12 @@ Public files for the 데일리 초성 iPhone app, served by GitHub Pages.
 
 When app dictionary data changes, update both CSV copies together. Do not put
 credentials, private contact details, or app source in this public repository.
+
+
+## Unlimited update draft · 2026-11-08
+
+The owner selected 무한초성. This branch prepares the new name, unlimited help
+and expanded technical disclosures. Do not publish this branch yet: privacy
+section 3 intentionally identifies the unresolved child-processing/legal-basis
+decision. The existing live policy remains the effective policy until that
+review is complete. Keep the legacy daily help while build 12 exists.
