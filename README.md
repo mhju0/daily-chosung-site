@@ -12,10 +12,16 @@ When app dictionary data changes, update both CSV copies together. Do not put
 credentials, private contact details, or app source in this public repository.
 
 
-## Unlimited update draft · 2026-11-08
+## Unlimited update · 2026-11-08
 
-The owner selected 무한초성. This branch prepares the new name, unlimited help
-and expanded technical disclosures. Do not publish this branch yet: privacy
-section 3 intentionally identifies the unresolved child-processing/legal-basis
-decision. The existing live policy remains the effective policy until that
-review is complete. Keep the legacy daily help while build 12 exists.
+The owner selected 무한초성 and deferred accepted-word sharing pending privacy
+review. The launch app must hard-disable collection and transport and hide its
+setting before these pages are published. The updated policy covers round-score
+metadata, explicit word reviews, and retained deletion markers. It preserves
+the previous policy's processing-basis text; this is technical reconciliation,
+not a new legal opinion. The Nov 5 policy is preserved as a dated page.
+
+Keep the legacy daily help while build 12 exists. The home page states that
+the unlimited app update is being prepared; TestFlight upload is not public
+App Store availability. Publish only after the native gate is verified and
+the owner approves publication.
