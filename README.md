@@ -1,6 +1,7 @@
-# daily-chosung-site
+# Infinity Chosung · public site
 
-Public files for the 무한초성 iPhone app, served by GitHub Pages.
+Public files for the 무한초성 (Infinity Chosung) iPhone app, served by GitHub Pages.
+The repository remains `daily-chosung-site` so published app links keep working.
 
 - `config.json`: the server address the app reads at launch, so the server can move without an app update.
 - `index.html`, `support.html`, `privacy.html`: app information, support, and the privacy policy.
