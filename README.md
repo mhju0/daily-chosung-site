@@ -1,7 +1,8 @@
 # Infinity Chosung · public site
 
 Public files for the 무한초성 (Infinity Chosung) iPhone app, served by GitHub Pages.
-The repository remains `daily-chosung-site` so published app links keep working.
+The canonical repository is `infinity-chosung-site`. The `daily-chosung-site`
+repository serves an identical compatibility copy for installed app links.
 
 - `config.json`: the server address the app reads at launch, so the server can move without an app update.
 - `index.html`, `support.html`, `privacy.html`: app information, support, and the privacy policy.
@@ -11,6 +12,10 @@ The repository remains `daily-chosung-site` so published app links keep working.
 
 When app dictionary data changes, update both CSV copies together. Do not put
 credentials, private contact details, or app source in this public repository.
+
+Run `scripts/check.sh` before publishing. After merging a site release, fast-forward
+the compatibility repository's `main` to the same commit and verify both Pages
+deployments. Synchronization is manual; keep the old JSON, CSV and page URLs working.
 
 
 ## Unlimited update · 2026-11-08
